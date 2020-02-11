@@ -1,0 +1,17 @@
+---
+title: "Enrollment"
+author: "Jason Yoo"
+date: "2/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+readxl("class_enrollment_summary_by_term_2.11.20.xlsx")
+
+```
